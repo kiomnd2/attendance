@@ -10,11 +10,10 @@ import practive.attendance.attendance.common.mapper.member.MemberMapper;
 @RequiredArgsConstructor
 public class MemberServiceImpl implements MemberService {
     private final MemberStore memberStore;
-    private final MemberMapper mapper;
 
     @Override
     public MemberInfo registerMember(MemberCommand memberCommand) {
-        Member store = memberStore.store(mapper.toEntity(memberCommand));
+        Member store = memberStore.store(MemberMapper.INSTANCE.toEntity(memberCommand));
         return new MemberInfo(store);
     }
 }
