@@ -9,7 +9,4 @@ import practive.attendance.attendance.domain.member.MemberCommand;
 @Mapper
 public interface MemberMapper extends EntityMapper<MemberCommand, Member> {
     MemberMapper INSTANCE = Mappers.getMapper(MemberMapper.class);
-
-    @Override
-    Member toEntity(MemberCommand dto);
 }

@@ -9,7 +9,6 @@ import practive.attendance.attendance.domain.member.MemberService;
 @RequiredArgsConstructor
 @Service
 public class MemberFacade {
-
     private final MemberService memberService;
 
     public MemberInfo registerMember(MemberCommand memberCommand) {
