@@ -1,4 +1,4 @@
-package practive.attendance.attendance.common.security.token;
+package practive.attendance.attendance.common.security.jwt;
 
 import lombok.Builder;
 import lombok.Getter;

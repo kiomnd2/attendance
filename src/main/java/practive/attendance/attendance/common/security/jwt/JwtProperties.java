@@ -1,4 +1,4 @@
-package practive.attendance.attendance.common.security.properties;
+package practive.attendance.attendance.common.security.jwt;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

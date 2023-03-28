@@ -1,4 +1,4 @@
-package practive.attendance.attendance.common.security.filter;
+package practive.attendance.attendance.common.security.jwt;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
